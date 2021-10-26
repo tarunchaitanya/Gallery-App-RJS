@@ -90,7 +90,7 @@ class Gallery extends Component {
     return (
       <div className="app-container">
         <div className="main-container">
-          <image className="clicked-image" src={imageUrl} alt={imageAltText} />
+          <img className="clicked-image" src={imageUrl} alt={imageAltText} />
           <h1 className="heading">Nature Photography</h1>
           <p className="description">Nature Photography by Rahul</p>
           <ul className="thumbnails-list-container">

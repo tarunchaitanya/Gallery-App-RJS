@@ -17,7 +17,7 @@ const ThumbnailItem = props => {
         type="button"
         onClick={onClickThumbnail}
       >
-        <image
+        <img
           className={thumbnailClass}
           src={thumbnailUrl}
           alt={thumbnailAltText}
